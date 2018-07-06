@@ -7,11 +7,11 @@ LSAG-signature voting with 3 cosigners requires ≈ 12.34 mGas. ECC operations a
 
 
 ## Guide
-1)Deploy secp256k1.sol on an ethereum chain
-2)Deploy UntraceableVoting.sol (pass the secp256k1 contract address in the constructor)
-3)Run main.go, to create a random set of "n voters and m candidates" and "signatures for each voter, to vote on on of the randomly selected candidates"
-    3.1) copy the newly generated text in solargs.txt and pass them as arguments for the creation and setup a voting on the chain
-    3.2) in vote.txt you'll find randomly generated valid vote parameters, pass them as argument for AnnonymousVote(..) function in UntraceableVoting.sol
+1. Deploy secp256k1.sol on an ethereum chain
+2. Deploy UntraceableVoting.sol (pass the secp256k1 contract address in the constructor)
+3. Run main.go, to create a random set of "n voters and m candidates" and "signatures for each voter, to vote on on of the randomly selected candidates"
+    3.1. copy the newly generated text in solargs.txt and pass them as arguments for the creation and setup a voting on the chain
+    3.2. in vote.txt you'll find randomly generated valid vote parameters, pass them as argument for AnnonymousVote(..) function in UntraceableVoting.sol
 
 
 
